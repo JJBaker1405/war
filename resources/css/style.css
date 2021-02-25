@@ -1,0 +1,97 @@
+body {
+  margin: 5%;
+  color: dimgrey;
+  background-color: #083b00;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flexColumn {
+  display:flex;
+  flex-direction: column;
+  margin: 1rem 2rem;
+  width: 30%;
+  align-items: stretch;
+}
+
+#draw {
+  color: black;
+  border: solid 2px  #000;
+  border-radius: 10px;
+  width: 8rem;
+  height: 2.5rem;
+  cursor: pointer;
+  text-align: center;
+  background-color: grey;
+}
+
+.number {
+  font-size: 3rem;
+}
+
+.number img {
+  height: 300px;
+  width: auto;
+}
+
+.suit {
+  width: 15rem;
+}
+
+.suit img {
+  padding: 0.3rem;
+  width: 15%;
+}
+
+.player {
+  border: solid 2px dimgrey;
+  border-radius: 10px;
+  width: 15rem;
+  height: 20rem;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#deck {
+  margin: 1rem 0;
+}
+
+#gameboard {
+  background-image: url('../images/background.png');
+  background-size: auto;
+  align-items: center;
+  border: solid 3px black;
+  border-radius: 5px;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 850px) {
+  .flex {
+    flex-direction: column;
+  }
+
+.flexColumn {
+  margin: 1rem;
+}
+}

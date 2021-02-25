@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>War</title>
+    <link type="text/css" rel="stylesheet" href="resources/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="resources/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="gameboard" class="flex">
+      <div class="flexColumn">
+        <h1>War</h1>
+        <div id="practice" style="font-size: 2rem;"></div>
+        <h2 id="winner">Winner:</h2>
+        <h2>Player 1 has <span id="p1count"></span> cards.</h2>
+        <h2>Player 2 has <span id="p2count"></span> cards.</h2>
+      </div>
+
+      <div id="deck" class="flex">
+        <div id="player1" class="flexColumn player">
+          Player 1
+          <div id="p1number" class="number">
+
+          </div>
+          <div id="p1suit" class="suit">
+
+          </div>
+        </div><!--closes player 1!-->
+        <h1 id="draw">Draw</h1>
+        <div id="player2" class="flexColumn player">
+          Player 2
+          <div id="p2number" class="number">
+
+          </div>
+          <div id="p2suit" class="suit">
+            
+          </div>
+        </div><!--closes player 2!-->
+      </div><!--closes cards!-->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="resources/js/script.js"></script>
+  </body>
+</html>
